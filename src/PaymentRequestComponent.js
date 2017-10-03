@@ -54,7 +54,7 @@ class PaymentRequestComponent extends Component {
       })
     })
     .catch(err => {
-      // Catch or something
+      // Catch or something else
       this.setState({debugString: 'Sorry, you cancelled the transaction. You monster.'})
     });
   }
